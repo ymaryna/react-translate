@@ -49,7 +49,7 @@ export async function translate ({
     }
   ]
 
-  const fromCode = fromLanguage === 'auto' ? 'auto' : SUPPORTED_LANGUAGES[fromLanguage]
+  const fromCode = fromLanguage === 'auto' ? 'auto' : fromLanguage
   const toCode = SUPPORTED_LANGUAGES[toLanguage]
 
   const completion = await openai.createChatCompletion({
