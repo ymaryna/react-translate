@@ -7,3 +7,19 @@
 h2 {
   margin-bottom: 1rem;
 }
+
+body {
+  background-color: #222;
+  color: white;
+}
+
+.form-select, .form-control {
+  background-color: #303133;
+  color: white;
+  border: 1px solid #303133;
+}
+
+.form-control:focus {
+  background-color: #303133;
+  color: white;
+}

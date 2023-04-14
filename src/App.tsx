@@ -14,7 +14,7 @@ import { useDebounce } from './hooks/useDebounce'
 function App () {
   const { loading, fromLanguage, toLanguage, fromText, result, interchangeLanguages, setFromLanguage, setToLanguage, setFromText, setResult } = useStore()
 
-  const debouncedFromText = useDebounce(fromText, 300)
+  const debouncedFromText = useDebounce(fromText, 400)
 
   useEffect(() => {
     if (debouncedFromText === '') return
