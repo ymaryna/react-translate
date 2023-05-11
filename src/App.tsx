@@ -47,7 +47,7 @@ function App () {
         </Stack>
         </Col>
 
-        <Col xs='auto'>
+        <Col xs='auto' className='p-0'>
         <Button variant='link' disabled={fromLanguage === AUTO_LANGUAGE} onClick={interchangeLanguages}><ArrowsIcon /></Button>
         </Col>
 
